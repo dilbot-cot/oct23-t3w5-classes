@@ -11,4 +11,4 @@ class Library {
     }
 }
 
-modle.exports = {Library}
+module.exports = {Library}
