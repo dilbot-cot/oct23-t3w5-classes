@@ -26,3 +26,10 @@ console.log(libraryInstance);
 console.log(libraryInstance.books[0].name);
 
 console.log(libraryInstance.books.length);
+
+console.log(Book.count);
+lotr2 = null
+Book.removeBook();
+console.log(Book.count);
+
+console.log(libraryInstance.books[0].getBookName())
